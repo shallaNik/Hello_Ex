@@ -4,7 +4,8 @@ pipeline{
         stage("build"){
             steps{
                 echo "building"
-                javac 
+                javac Hello.java
+                java Hello
             }
         }
         stage("tetst"){
