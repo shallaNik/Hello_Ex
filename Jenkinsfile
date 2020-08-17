@@ -5,6 +5,7 @@ pipeline{
             steps{
                 echo "building"
                 python 'Hello_Ex/hello.py'
+                
             }
         }
         stage("tetst"){
