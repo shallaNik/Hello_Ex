@@ -4,7 +4,7 @@ pipeline{
         stage("build"){
             steps{
                 echo "building"
-                python 'Hello_Ex/hello.py'
+                python '..hello.py'
                 
             }
         }
